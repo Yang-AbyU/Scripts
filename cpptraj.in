@@ -1,0 +1,31 @@
+parm exo.top
+for i=1;i<21;i++
+	trajin US$i/rc1.3/md2ps.nc lastframe
+	trajin US$i/rc1.4/md2ps.nc lastframe
+	trajin US$i/rc1.5/md2ps.nc lastframe
+	trajin US$i/rc1.6/md2ps.nc lastframe
+	trajin US$i/rc1.7/md2ps.nc lastframe
+	trajin US$i/rc1.8/md2ps.nc lastframe
+	trajin US$i/rc1.9/md2ps.nc lastframe
+	trajin US$i/rc2.0/md2ps.nc lastframe
+	trajin US$i/rc2.1/md2ps.nc lastframe
+	trajin US$i/rc2.2/md2ps.nc lastframe
+	trajin US$i/rc2.3/md2ps.nc lastframe
+	trajin US$i/rc2.4/md2ps.nc lastframe
+	trajin US$i/rc2.5/md2ps.nc lastframe
+	trajin US$i/rc2.6/md2ps.nc lastframe
+	trajin US$i/rc2.7/md2ps.nc lastframe
+	trajin US$i/rc2.8/md2ps.nc lastframe
+	trajin US$i/rc2.9/md2ps.nc lastframe
+	trajin US$i/rc3.0/md2ps.nc lastframe
+	trajin US$i/rc3.1/md2ps.nc lastframe
+	trajin US$i/rc3.2/md2ps.nc lastframe
+	trajin US$i/rc3.3/md2ps.nc lastframe
+	trajin US$i/rc3.4/md2ps.nc lastframe
+	trajin US$i/rc3.5/md2ps.nc lastframe
+	trajin US$i/rc3.6/md2ps.nc lastframe
+	trajin US$i/rc3.7/md2ps.nc lastframe
+	trajin US$i/rc3.8/md2ps.nc lastframe
+done                              
+trajout ensamble.pdb pdb
+go

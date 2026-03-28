@@ -1,0 +1,6 @@
+parm MD_MMGBSA_1/us_dftb_1.dry.top
+for i=1;i<11;i++
+	trajin MD_MMGBSA_$i/us_dftb_$i_100ps.dry.nc
+done
+distance d1 @2035 @2036 out distance.out
+distance d2 @2044 @2058 out distance.out

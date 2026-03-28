@@ -1,0 +1,7 @@
+{
+  "tleap": { 
+      "solvent_radius": 24,
+      "include": "/user/work/al23945/enlighten2/",
+      "center": "__CATOM__" 
+  }
+} 

@@ -1,0 +1,4 @@
+parm ../../*.top
+trajin __SYSTEM_____REPLICA___qmmm_mini.rst
+trajout __SYSTEM_____REPLICA___qmmm_mini_ori.pdb
+run

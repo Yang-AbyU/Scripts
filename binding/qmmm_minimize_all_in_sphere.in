@@ -1,0 +1,17 @@
+Brief minimization of 12.0 sphere
+&cntrl
+ imin=1, maxcyc=100, ntmin=1, ncyc=50,
+ ntpr=5, ntxo=1,
+ ntb=0, cut=10,
+ ibelly=1,
+ bellymask='__BELLY__<@12',
+ ifqnt=1
+/
+&qmmm
+ qmmask=":LIG",
+ qmcharge=0,
+ qm_theory='DFTB',
+ qmshake=0,
+ qmcut=10,
+ writepdb=1
+/

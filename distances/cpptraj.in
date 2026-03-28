@@ -1,0 +1,5 @@
+parm us_dftb___REPLICA__.dry.top
+trajin us_dftb___REPLICA___100ps.dry.nc
+distance d1 @2035 @2036 out distance.out
+distance d2 @2044 @2058 out distance.out
+go

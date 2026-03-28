@@ -1,0 +1,7 @@
+{
+  "tleap": {
+    "solvent_radius": 24,
+    "include": "/mnt/nfs/home/nsy49/enlighten2/",
+    "center": "__CATOM__"
+  }
+}

@@ -1,0 +1,19 @@
+Brief minimization of hydrogens in 20.0 sphere
+&cntrl
+ imin=1, maxcyc=50, ntmin=1, ncyc=25,
+ ntpr=5, ntxo=1,
+ ntb=0, cut=10,
+ ibelly=1,
+ bellymask='__BELLY__<:20.0'
+ ntr=1, restraint_wt=50.0,
+ restraintmask='!@H=',
+ ifqnt=1
+/
+&qmmm
+ qmmask=":LIG",
+ qmcharge=0,
+ qm_theory='DFTB',
+ qmshake=0,
+ qmcut=10,
+ writepdb=1
+/

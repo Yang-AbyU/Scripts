@@ -1,0 +1,9 @@
+source oldff/leaprc.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+loadamberprep /nobackup/proj/rockhpc_jsbs/Yang/MD_simulation/__ENZYME__/__LIG__/pose___POSE__/__SYSTEM__/__SYSTEM_____REPLICA__/antechamber/LIG.prepc
+loadamberparams /nobackup/proj/rockhpc_jsbs/Yang/MD_simulation/__ENZYME__/__LIG__/pose___POSE__/__SYSTEM__/__SYSTEM_____REPLICA__/antechamber/LIG.frcmod
+mol = loadpdb input.pdb
+saveamberparm mol __SYSTEM_____REPLICA__.top __SYSTEM_____REPLICA__.rst
+savepdb mol __SYSTEM_____REPLICA__.pdb
+quit
